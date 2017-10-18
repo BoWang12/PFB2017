@@ -41,3 +41,8 @@ print ('The position of TG in the sequence is', position)
 
 print ('The sequence of EcolI is', Ecol1_seq)
 
+string = "This sequence: {} is {} nucleotides long and is found in {}"
+
+new_string = string.format (DNA,total_bases, Ecol1_seq)
+
+print(new_string)
